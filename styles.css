@@ -1,0 +1,75 @@
+body {
+  background-color: #ccc;
+}
+
+.basket-wrap {
+  margin: 0 auto;
+  width: 320px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.basket-wrap .item {
+  border-bottom: 1px dashed #ccc;
+  padding: 10px 0 10px;
+  width: 100%;
+}
+
+.basket-wrap .item_description {
+  display: inline-block;
+  width: 120px;
+}
+
+.basket-wrap .item_QTY {
+  width: 20px;
+  text-align: center;
+  margin: 0 10px 0 10px;
+}
+
+.basket-wrap .item_price {
+  float: right;
+  color: orangered;
+}
+
+.basket-wrap .item_price:before {
+  content: '$';
+}
+
+.basket-wrap .item_price:after {
+  content: '  x';
+  color: gray;
+}
+
+.basket-wrap .basket-options {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.basket-wrap .checkout_btn {
+  background-color: #5EACD9;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.basket-wrap .clear_btn {
+  border: none;
+  font-size: 14px;
+  color: rgba(204, 204, 204, 0.831);
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.basket-wrap .total {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: darkgray;
+  padding-top: 25px;
+}
+
+.basket-wrap .total:before {
+  content: "$ ";
+}
+/*# sourceMappingURL=styles.css.map */
